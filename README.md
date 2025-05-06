@@ -1,2 +1,2 @@
-Here is the like to my website 
+Here is the link  to my website 
 https://ict171kashish.click/
