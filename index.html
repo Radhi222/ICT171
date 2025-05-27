@@ -1,64 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pearl Threading</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pearl Threading Salon</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #d4af37;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      padding: 0.5rem 2rem;
+      text-align: center;
+      }
+     nav {
+      background-color: #f2f2f2;
+      padding: 0.5rem 2rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #555;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+    .hero img {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .services, .about, .contact {
+      background-color: white;
+      margin: 2rem 0;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .gallery img {
+      width: 300px;
+      margin: 1rem;
+      border-radius: 8px;
+    }
+     footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+  <script>
+    function showThankYou() {
+      alert("Thank you for contacting Pearl Threading!");
+    }
+  </script>
 </head>
 <body>
-    <header>
-        <div class="overlay">
-            <h1>PEARL THREADING</h1>
-            <p>A modern beauty studio rooted in tradition, celebrating self-care through the art of threading and natural beauty rituals</p>
-        </div>
-    </header>
+  <header>
+    <h1>Pearl Threading</h1>
+    <p>Glow like a pearl, feel like a queen.</p>
+  </header>
 
-    <main class="content">
-        <section>
-            <h2>About the Project</h2>
-            <p>
-                Pearl Threading is a beauty and self-care platform centered around professional threading and natural beauty treatments.
-                Designed as a modern beauty service business, it offers a clean, comfortable environment where clients can receive expert threading, waxing, tinting, and henna treatments.
-                The goal is to enhance personal confidence and self-expression through skilled, affordable, and culturally inspired beauty services.
-            </p>
-            <p>
-                The core focus of Pearl Threading is the art of threading—an ancient, chemical-free technique of facial hair removal known for its precision, gentleness on skin, and ability to create clean, defined eyebrow shapes.
-                This traditional method is complemented by additional services, including waxing, tinting, and henna designs, to provide a holistic approach to facial and skin grooming.
-            </p>
-            <p>
-                To support the operations and growth of the business, Pearl Threading will use cloud-based infrastructure hosted on Amazon Web Services (AWS).
-                The service will run on a Linux-based virtual machine using AWS EC2, providing a secure, scalable, and globally accessible platform.
-                This cloud setup will support appointment scheduling, client management, and service promotion via an integrated content management system.
-            </p>
-            <p>
-                Rich media such as high-resolution photos and promotional videos will be stored and delivered using Amazon S3 for high availability and fast load times.
-                AWS Route 53 will manage the domain and DNS services, while AWS Certificate Manager will ensure secure HTTPS connections for all online interactions.
-            </p>
-        </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+<section class="hero">
+    <img src="banner.jpg" alt="banneer image" />
+  </section>
 
-        <section>
-            <h2>Licensing</h2>
-            <p>
-                The content shared by Pearl Threading, such as photos, videos, and blog posts, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license.
-                This means others are free to use, share, or change the content, but only for non-commercial purposes.
-                They must give credit to Pearl Threading and share any new work under the same license.
-            </p>
-        </section>
+  <section class="about" id="about">
+    <h2>About Pearl Threading</h2>
+    <p>
+           Pearl Threading is a beauty and self-care platform centered around professional threading and natural beauty
+           treatments.Designed as a modern beauty service business, it offers a clean, comfortable environment where
+           clients can receive expert threading, waxing, tinting, and henna treatments.The goal is to enhance personal
+           confidence and self-expression through skilled, affordable, and culturally inspired beauty services.The core
+           focus of Pearl Threading is the art of threading—an ancient, chemical-free technique of facial hair removal
+           known for its precision, gentleness on skin, and ability to create clean, defined eyebrow shapes.
+           This traditional method is complemented by additional services, including waxing, tinting, and henna designs>           to provide a holistic approach to facial and skin grooming.
+    </p>
+  </section>
 
-        <section>
-            <h2>Licence Marking</h2>
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Eyebrow Threading</li>
+      <li>Full Face Threading</li>
+      <li>Facial</li>
+      <li>Bridal Packages</li>
+      <li>Tinting</li>
+       <li>Heena Treatments</li>
+    </ul>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <img src="eyebrow.jpg" alt="eyebrow"/>
+    <img src="heena.jpg" alt="heena "/>
+    <img src="bridal.jpg" alt="bridal"/>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: manglanikashish73@gmail.com</p>
+    <button onclick="showThankYou()">Send Inquiry</button>
+     <br>
+      <h2>Licence Marking</h2>
             <p>
                 All content is licensed under the
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
                     Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
-                </a>.
+                </a>
             </p>
-        </section>
-    </main>
+  </section>
 
-    <footer>
-        <p>&copy; Pearl Threading</p>
-    </footer>
+ <footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+    <img src="copy.jpg" alt="Copyright" style="height: 16px; vertical-align: middle; margin-right: 5px;">
+  © Pearl Threading
+</footer>
+
 </body>
 </html>
