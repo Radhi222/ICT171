@@ -32,7 +32,7 @@ To host the Pearl Threading website, I launched a virtual server using **Amazon 
 
 ```bash
 ssh -i "ict171keypair1-key.pem" ubuntu@<18.214.189.146>
----
+---<br><br>
 
 ## 🌐 Installing Apache Web Server
 
