@@ -87,4 +87,11 @@ After confirming Apache was working, I created a simple custom website for **Pea
 The website successfully displayed my custom Pearl Threading homepage with all the content and styling I wrote inside `index.html`.
 
 
+## 🖼️ Website Screenshot
+
+Here is a screenshot of my live Pearl Threading website:
+
+![Homepage Screenshot](web1.png)
+
+
 
