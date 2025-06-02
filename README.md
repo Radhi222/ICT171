@@ -13,3 +13,22 @@ My Domain name is ict171kashish.click
            holistic approach to facial and skin grooming.
            <br>
 <h3>**Let's start creating our website**</h3> 
+---
+
+## 🔧 EC2 Server Setup
+
+To host the Pearl Threading website, I launched a virtual server using **Amazon EC2** (Ubuntu 22.04). The steps are listed below:
+
+1. **Logged in** to AWS Management Console.
+2. Navigated to **EC2 > Launch Instance**.
+3. Selected:
+   - **Ubuntu Server 22.04 LTS**
+   - **t2.micro** (eligible for free tier)
+4. Created a **new key pair** (e.g., `ict171keypair1-key.pem`) for SSH access.
+5. Configured **Security Group rules**:
+   - ✅ TCP 22 – SSH (My IP)
+   - ✅ TCP 80 – HTTP (Anywhere)
+6. Launched the instance and connected using this command:
+
+```bash
+ssh -i "ict171keypair1-key.pem" ubuntu@<your-ec2-public-ip>
