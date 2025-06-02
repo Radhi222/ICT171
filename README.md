@@ -33,4 +33,11 @@ To host the Pearl Threading website, I launched a virtual server using **Amazon 
 ```bash
 ssh -i "ict171keypair1-key.pem" ubuntu@18.214.189.146```
 
+## 🌐 Installing Apache Web Server
+
+After connecting to my EC2 instance using SSH, I installed **Apache2**, the open-source web server software.
+
+1. **Updated package lists:**
+   ```bash
+   sudo apt update
 
