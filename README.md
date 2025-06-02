@@ -31,7 +31,8 @@ To host the Pearl Threading website, I launched a virtual server using **Amazon 
 6. Launched the instance and connected using this command:
 
 ```bash
-ssh -i "ict171keypair1-key.pem" ubuntu@18.214.189.146`
+ssh -i "ict171keypair1-key.pem" ubuntu@18.214.189.146
+```
 
 
 ☝️ That **last line** with ` ``` ` is what you're missing.
