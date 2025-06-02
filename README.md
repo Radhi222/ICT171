@@ -58,4 +58,33 @@ After connecting to my EC2 instance using SSH, I installed **Apache2**, the open
 
 If Apache is working, the browser shows the default Apache2 Ubuntu welcome page.
 
+---
+
+## 🖥️ Creating the Website with HTML & CSS
+
+After confirming Apache was working, I created a simple custom website for **Pearl Threading** by editing the default Apache landing page.
+
+1. **Opened the index.html file using nano:**
+
+    ```bash
+    sudo nano /var/www/html/index.html
+    ```
+
+2. **Wrote all my HTML and CSS manually inside this file.**  
+   I included:
+   - A homepage introducing Pearl Threading services
+   - Service descriptions (e.g., eyebrow threading, facial threading, etc.)
+   - Basic CSS styling using `<style>` tags within the same HTML file
+
+3. **Saved and exited the file** by pressing `Ctrl + O`, `Enter`, then `Ctrl + X`.
+
+4. **Tested the website** in my browser by visiting:
+
+    ```
+    http://18.214.189.146 or http://ict171kashish.click
+    ```
+
+The website successfully displayed my custom Pearl Threading homepage with all the content and styling I wrote inside `index.html`.
+
+
 
