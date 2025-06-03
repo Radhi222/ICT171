@@ -240,6 +240,11 @@ sudo apt install certbot python3-certbot-apache -y
 sudo certbot --apache
 ```
 
+### 📸 SSL Setup Screenshot
+
+The screenshot below shows that **port 443** has been opened in my EC2 security group, making my instance ready to install an SSL certificate via Let's Encrypt:
+
+![SSL Setup Screenshot](setup.PNG)
 
 
 
