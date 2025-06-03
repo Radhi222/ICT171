@@ -132,7 +132,7 @@ Here is a screenshot of my Html and css code
 
 To enhance the website functionality, I added a second HTML page named `about.html`.
 
-This page provides visitors with background information about the Pearl Threading salon, including services, values, and booking encouragement.
+This page provides visitors with background information about the Pearl Threading, including services, values, and booking encouragement.
 
 ### 🔗 Navigation:
 
