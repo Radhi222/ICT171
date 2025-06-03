@@ -109,6 +109,12 @@ Here’s how I did it:
 4. Clicked **Actions > Associate Elastic IP address**
 5. Chose my instance and private IP, then clicked **Associate**
 
+### 📸 Elastic IP Screenshot
+
+The screenshot below shows the Elastic IP I allocated (18.214.189.146) and how it appears in the AWS EC2 dashboard:
+
+![Elastic IP Screenshot](Elastic.PNG)
+
 The Elastic IP I received was:
 18.214.189.146
 
