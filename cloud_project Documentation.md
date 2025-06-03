@@ -42,6 +42,28 @@ Below is a screenshot of the AWS EC2 Dashboard where I launched my virtual serve
 
 ![EC2 Dashboard](dashborad.PNG)
 
+---
+
+### 🔐 AWS Security Group Configuration
+
+To allow traffic to my EC2 instance, I edited the Security Group settings to open the required ports:
+
+- **Port 22 (SSH)** – To connect via terminal
+- **Port 80 (HTTP)** – To serve the website on regular web browsers
+- **Port 443 (HTTPS)** – For future SSL/HTTPS setup
+
+This ensures that:
+- I can SSH into the server
+- Users can access my website over HTTP
+- The instance is ready for HTTPS if SSL is configured
+
+### 📸 Security Group Screenshot:
+
+The screenshot below shows the allowed TCP ports in my instance's security group:
+
+![Security Group Rules](group.PNG)
+
+
    ## 🌐 Installing Apache Web Server
 
 After connecting to my EC2 instance using SSH, I installed **Apache2**, the open-source web server software.
