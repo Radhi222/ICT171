@@ -206,7 +206,7 @@ Now my website is publicly accessible at:
 
 ## 💡 JavaScript Feature
 
-To add interactivity to my website, I included a simple JavaScript function that shows a pop-up alert when the user clicks a "Book Now" button.
+To add interactivity to my website, I included a simple JavaScript function that shows a pop-up alert when the user clicks the "Send Inquiry" button.
 
 ### 📜 Code:
 
