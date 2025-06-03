@@ -175,8 +175,7 @@ To add interactivity to my website, I included a simple JavaScript function that
     alert("Thanks for choosing Pearl Threading! We'll contact you soon.");
   }
 </script>
-
----
+```
 
 ## 🎥 Video Walkthrough 
 
