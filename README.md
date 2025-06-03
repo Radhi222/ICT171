@@ -95,6 +95,26 @@ Here is a screenshot of my Html and css code
 
 ![Homepage Screenshot](web2.PNG)
 
+---
+
+## 🌐 Assigning an Elastic IP to My EC2 Instance
+
+To ensure my website has a stable and public-facing IP address, I assigned an **Elastic IP** to my EC2 instance. This prevents the IP from changing every time the instance restarts.
+
+Here’s how I did it:
+
+1. Navigated to **EC2 Dashboard > Elastic IPs**
+2. Clicked **"Allocate Elastic IP address"**
+3. Left default settings and clicked **Allocate**
+4. Clicked **Actions > Associate Elastic IP address**
+5. Chose my instance and private IP, then clicked **Associate**
+
+The Elastic IP I received was:
+18.214.189.146
+
+
+Now, even if I stop and start my EC2 instance, the public IP stays the same, which is essential for linking a custom domain.
+
 
 
 
