@@ -141,6 +141,13 @@ To give my website a professional appearance and make it easier to access, I pur
    - **TTL**: 300 (default)
 7. Saved the record and waited a few minutes for DNS to propagate
 
+### 📸 Route 53 Domain Setup Screenshot
+
+The screenshot below shows my AWS Route 53 dashboard, where I registered the domain `ict171kashish.click` and set up DNS management:
+
+![Route 53 Dashboard](domain.PNG)
+
+
 Now my website is publicly accessible at:  
 👉 [http://ict171kashish.click](http://ict171kashish.click)
 
