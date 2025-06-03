@@ -1,6 +1,11 @@
+# ICT171 Cloud Project  
+**Name:** Kashish Tulsibhai Manglani  
+**Student Number:** 35258525  
+
+
 Here is the link  to my website 
 https://ict171kashish.click/<br>
-My Domain name is ict171kashish.click
+
 
 <h1>**Pearl Threading Cloud Project**</h1>
            Pearl Threading is a beauty and self-care platform centered around professional threading and natural beauty
