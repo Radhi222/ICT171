@@ -176,6 +176,20 @@ To add interactivity to my website, I included a simple JavaScript function that
   }
 </script>
 
+---
+
+## 🎥 Video Walkthrough 
+
+This section will include a short video showing how I:
+
+- Launched my EC2 instance
+- Installed Apache
+- Created and tested the website using nano
+- Assigned an Elastic IP and linked my Route 53 domain
+
+🎬 [Watch the video here](https://your-video-link.com) ← *(Add real link here once ready)*
+
+
 
 
 
