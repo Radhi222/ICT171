@@ -176,6 +176,14 @@ To add interactivity to my website, I included a simple JavaScript function that
   }
 </script>
 ```
+---
+
+### 📸 Script Output Screenshot
+
+The screenshot below shows the alert popup triggered when a user submits the contact form on the Pearl Threading website:
+
+![JavaScript Alert Screenshot](popup.PNG)
+
 
 ## 🎥 Video Walkthrough 
 
