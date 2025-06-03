@@ -115,6 +115,29 @@ The Elastic IP I received was:
 
 Now, even if I stop and start my EC2 instance, the public IP stays the same, which is essential for linking a custom domain.
 
+---
+
+## 🌍 Purchasing and Linking a Custom Domain Name (AWS Route 53)
+
+To give my website a professional appearance and make it easier to access, I purchased the domain **ict171kashish.click** directly from **AWS Route 53**.
+
+### Steps I followed:
+
+1. Went to the **AWS Route 53 console**
+2. Clicked on **"Registered domains" > Register domain**
+3. Searched for `ict171kashish.click` and completed the payment process
+4. Once registered, I went to **Route 53 > Hosted Zones**
+5. Selected my domain and clicked **"Create Record"**
+6. Added a new **A Record**:
+   - **Record name**: *(left blank to use root domain)*
+   - **Record type**: A - IPv4 address
+   - **Value**: `18.214.189.146` (my Elastic IP)
+   - **TTL**: 300 (default)
+7. Saved the record and waited a few minutes for DNS to propagate
+
+Now my website is publicly accessible at:  
+👉 [http://ict171kashish.click](http://ict171kashish.click)
+
 
 
 
