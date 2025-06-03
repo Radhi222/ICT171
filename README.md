@@ -89,9 +89,11 @@ The website successfully displayed my custom Pearl Threading homepage with all t
 
 ## 🖼️ Website Screenshot
 
-Here is a screenshot of my live Pearl Threading website:
+Here is a screenshot of my Html and css code 
 
 ![Homepage Screenshot](web1.PNG)
+
+![Homepage Screenshot](web2.PNG)
 
 
 
