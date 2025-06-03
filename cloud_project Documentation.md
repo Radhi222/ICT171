@@ -126,6 +126,27 @@ Here is a screenshot of my Html and css code
 ![Homepage Screenshot](web2.PNG)
 
 ---
+---
+
+## 📄 Creating a Second Page: About Pearl Threading
+
+To enhance the website functionality, I added a second HTML page named `about.html`.
+
+This page provides visitors with background information about the Pearl Threading salon, including services, values, and booking encouragement.
+
+### 🔗 Navigation:
+
+- I added a link to `about.html` from the homepage (`index.html`)
+- I also included a "Back to Home" link on the `about.html` page to return to the homepage
+
+Visitors can now browse between:
+- **Home Page:** [http://ict171kashish.click](http://ict171kashish.click)
+- **About Page:** [http://ict171kashish.click/about.html](http://ict171kashish.click/about.html)
+
+### 📸 About Page Screenshot:
+
+![About Page Screenshot](about.PNG)
+
 
 ## 🌐 Assigning an Elastic IP to My EC2 Instance
 
