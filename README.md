@@ -91,7 +91,8 @@ The website successfully displayed my custom Pearl Threading homepage with all t
 
 Here is a screenshot of my live Pearl Threading website:
 
-![Homepage Screenshot](web1.png)
+![Homepage Screenshot](web1.PNG)
+
 
 
 
