@@ -159,6 +159,24 @@ The screenshot below shows my AWS Route 53 dashboard, where I registered the dom
 Now my website is publicly accessible at:  
 👉 [http://ict171kashish.click](http://ict171kashish.click)
 
+---
+
+## 💡 JavaScript Feature
+
+To add interactivity to my website, I included a simple JavaScript function that shows a pop-up alert when the user clicks a "Book Now" button.
+
+### 📜 Code Snippet:
+
+```html
+<button onclick="showBooking()">Book Now</button>
+
+<script>
+  function showBooking() {
+    alert("Thanks for choosing Pearl Threading! We'll contact you soon.");
+  }
+</script>
+
+
 
 
 
