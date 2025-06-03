@@ -194,7 +194,7 @@ This section will include a short video showing how I:
 - Created and tested the website using nano
 - Assigned an Elastic IP and linked my Route 53 domain
 
-🎬 [Watch the video here](https://your-video-link.com) ← *(Add real link here once ready)*
+🎬 [Watch the video here](https://your-video-link.com)
 
 
 
