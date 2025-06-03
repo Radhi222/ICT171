@@ -35,7 +35,7 @@ ssh -i "ict171keypair1-key.pem" ubuntu@18.214.189.146
 ```
 Below is a screenshot of the AWS EC2 Dashboard where I launched my virtual server for the Pearl Threading website:
 
-![EC2 Dashboard](dashboard.PNG)
+![EC2 Dashboard](dashborad.PNG)
 
    ## 🌐 Installing Apache Web Server
 
