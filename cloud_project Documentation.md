@@ -211,13 +211,14 @@ To add interactivity to my website, I included a simple JavaScript function that
 ### 📜 Code:
 
 ```html
-<button onclick="showBooking()">Book Now</button>
+<button onclick="showThankYou()">Send Inquiry</button>
 
 <script>
-  function showBooking() {
-    alert("Thanks for choosing Pearl Threading! We'll contact you soon.");
+  function showThankYou() {
+    alert("Thank you for contacting Pearl Threading!");
   }
 </script>
+
 ```
 ---
 
