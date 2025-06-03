@@ -218,6 +218,28 @@ This message appears right after the navbar to welcome the user dynamically.
 
 ![Greeting and Date Screenshot](gretting.PNG)
 
+---
+
+## 🔒 Securing My Website with SSL (Let’s Encrypt)
+
+To make my website more secure and enable **HTTPS**, I prepared my EC2 instance to support **SSL/TLS encryption** using **Let’s Encrypt** and **Certbot**.
+
+### 🔧 Required Security Group Rule:
+I enabled **Port 443 (TCP)** in my AWS EC2 security group to allow HTTPS traffic.
+
+### 📋 Installation Steps (Planned or Completed):
+
+I followed the university’s guide to installing SSL via Certbot:  
+👉 [Obtaining a Digital Certificate from Let’s Encrypt](https://github.com/SCH-IT-MurdochUni/NetworkingLabs/blob/main/Server_Environments_and_Architectures/obtaining_a_digital_certificate_from_lets_encrypt.md)
+
+Main steps include:
+
+```bash
+sudo apt update
+sudo apt install certbot python3-certbot-apache -y
+sudo certbot --apache
+
+
 
 
 ## 🎥 Video Walkthrough 
