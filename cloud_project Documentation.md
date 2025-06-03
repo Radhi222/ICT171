@@ -165,7 +165,7 @@ Now my website is publicly accessible at:
 
 To add interactivity to my website, I included a simple JavaScript function that shows a pop-up alert when the user clicks a "Book Now" button.
 
-### 📜 Code Snippet:
+### 📜 Code:
 
 ```html
 <button onclick="showBooking()">Book Now</button>
@@ -183,6 +183,19 @@ To add interactivity to my website, I included a simple JavaScript function that
 The screenshot below shows the alert popup triggered when a user submits the contact form on the Pearl Threading website:
 
 ![JavaScript Alert Screenshot](popup.PNG)
+
+---
+
+## 🧠 JavaScript Time & Date Greeting
+
+I added a JavaScript script that automatically shows a time-based greeting ("Good morning!", "Good afternoon!") and today's date when a user visits the site.
+
+This message appears right after the navbar to welcome the user dynamically.
+
+### 📸 Screenshot:
+
+![Greeting and Date Screenshot](gretting.PNG)
+
 
 
 ## 🎥 Video Walkthrough 
