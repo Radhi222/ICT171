@@ -170,6 +170,7 @@ To achieve this, I updated the `<form>` tag in `booking.html` with the following
 
 ```html
 <form action="confirmation.html" method="get">
+```
 📸 Confirmation Page Screenshot
 ![Booking Screenshot](conform.PNG)
 
