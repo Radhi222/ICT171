@@ -148,6 +148,14 @@ Visitors can now browse between:
 ![About Page Screenshot](about.PNG)
 
 
+## 🖼️ Creating a Gallery Page
+
+To visually showcase the services offered by Pearl Threading, I created a `gallery.html` page. The page displays images of treatments like Bridal, Heena, Eyebrow, Facial, and Tinting in a responsive grid layout. Each image includes a label for clarity and better user experience. The gallery is styled using CSS to match the theme of the website.
+
+📸 Gallery Page Screenshot  
+![Gallery Screenshot](gallery.PNG)
+
+
 ## 🌐 Assigning an Elastic IP to My EC2 Instance
 
 To ensure my website has a stable and public-facing IP address, I assigned an **Elastic IP** to my EC2 instance. This prevents the IP from changing every time the instance restarts.
