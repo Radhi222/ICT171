@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery | Pearl Threading</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 30px;
+      color: #d63384;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      color: #555;
+      text-decoration: none;
+      font-weight: bold;
+    }
+     .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .gallery-item {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.03);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+       }
+
+    .gallery-item p {
+      margin: 10px 0 15px 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #d63384;
+    }
+  </style>
+</head>
+<body>
+
+    <h1>Gallery</h1>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="bridal.jpg" alt="Bridal Look">
+      <p>Bridal</p>
+    </div>
+    <div class="gallery-item">
+      <img src="eyebrow.jpg" alt="Eyebrow Threading">
+      <p>Eyebrow</p>
+    </div>
+    <div class="gallery-item">
+      <img src="heena.jpg" alt="Heena Design">
+      <p>Heena</p>
+ </div>
+<div class="gallery-item">
+      <img src="facial.jpg" alt="facial">
+      <p>Facial</p>
+    </div>
+<div class="gallery-item">
+      <img src="tin.jpg" alt="tin">
+      <p>Tinting</p>
+    </div>
+      </div>
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
