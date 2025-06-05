@@ -155,6 +155,13 @@ To visually showcase the services offered by Pearl Threading, I created a `galle
 📸 Gallery Page Screenshot  
 ![Gallery Screenshot](gallery.PNG)
 
+## 📅 Creating a Booking Page
+
+To allow users to book appointments online, I created a `booking.html` page. The form includes fields for Full Name, Phone Number, Preferred Date and Time, and Service selection. The layout is styled with internal CSS and includes a "Submit Booking" button. The page is user-friendly and linked from both the homepage and about page.
+
+📸 Booking Page Screenshot  
+![Booking Screenshot](booking.PNG)
+
 
 ## 🌐 Assigning an Elastic IP to My EC2 Instance
 
