@@ -162,6 +162,16 @@ To allow users to book appointments online, I created a `booking.html` page. The
 📸 Booking Page Screenshot  
 ![Booking Screenshot](booking.PNG)
 
+## ✅ Creating a Booking Confirmation Page
+
+To improve the user experience after submitting a booking, I created a `confirmation.html` page. When users click the "Submit Booking" button on the booking form, they are redirected to this new page which displays a message confirming that their booking was successful.
+
+To achieve this, I updated the `<form>` tag in `booking.html` with the following line:
+
+```html
+<form action="confirmation.html" method="get">
+📸 Confirmation Page Screenshot
+![Booking Screenshot](conform.PNG)
 
 ## 🌐 Assigning an Elastic IP to My EC2 Instance
 
